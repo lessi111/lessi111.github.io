@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('fonts/NHaasGrotesk-55.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Medium';
+  src: url('fonts/NHaasGrotesk-65.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Independent';
+  src: url('fonts/independent-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    font-family: "Neue Haas Grotesk", Helvetica, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+ul li a {
+    text-decoration: underline;
+    color: black;
+}
+
+.inicio {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .inicio {
+        margin: 10%;
+        margin-top: 50%;
+    }
+
+    .articulo {
+        margin: 10%;
+        margin-top: 50%;
+    }
+}
+
+.articulo {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.articulo p {
+    font-family: Independent, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+blockquote {
+    font-family: Independent, Arial, Helvetica, sans-serif;
+    line-height: 1.25rem;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle {
+    margin-top: 0.5rem;
+    display: block;
+    font-size: 0.75rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.album {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.album img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.comparaciones {
+    margin-left: 1rem;
+}
