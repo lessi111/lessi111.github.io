@@ -112,3 +112,42 @@ blockquote {
 .comparaciones {
     margin-left: 1rem;
 }
+
+.imgtxt img {
+  max-width: 100%;
+  height: auto;
+  width: 640px; /* o lo que te parezca */
+}
+
+.imgbodoq img {
+  max-width: 100%;
+  height: auto;
+  width: 640px; /* o lo que te parezca */
+}
+
+@media (min-width: 640px) {
+  .imgtxt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .imgbodoq {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1em;
+  }
+
+  .imgbodoq .xl {
+    height: auto;
+    width: 640px;
+  }
+}
+
+pre {
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  white-space: pre-line;
+}
