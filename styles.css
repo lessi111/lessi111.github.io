@@ -97,6 +97,19 @@ blockquote {
     justify-content: center;
 }
 
+.articulo .palabrasub {
+  line-height: 0.75rem;
+}
+
+.articulo .palabrasub i {
+  margin: 0.070rem;
+  font-size: 0.825rem;
+}
+
+.articulo .palabrasub .junto p {
+  margin: 0;
+}
+
 .album {
     display: block;
     max-width: 100%;
@@ -123,6 +136,20 @@ blockquote {
   max-width: 100%;
   height: auto;
   width: 640px; /* o lo que te parezca */
+}
+
+.landscape {
+  display: block;
+  width: 100%;
+  max-height: 4rem;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 720px) {
+  img.small {
+    max-width: 120px;
+    margin: 0;
+  }
 }
 
 @media (min-width: 640px) {
