@@ -189,3 +189,7 @@ pre {
   padding: 0;
   white-space: pre-line;
 }
+
+.center {
+  text-align: center;
+}
