@@ -194,3 +194,8 @@ pre {
   margin: 0 auto !important;
   text-align: center !important;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
